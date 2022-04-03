@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id="student" class="com.demo.test.Student">
+       <property name="name" value="Bamdev"/>
+       <property name="id" value="101"/>
+       <property name="college" value="fwu"/>
+       <property name="faculty" value="csit"/>
+   </bean>
+   <bean class="com.demo.test.Employee" id="emp">
+   <constructor-arg value="1011"/>
+   <constructor-arg value="ganesh"/>
+   <constructor-arg value="google"/>
+   
+   </bean>
+
+</beans>
